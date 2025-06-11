@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.calculadorascomscanner;
+package com.mycompany.calculadoracomscanner;
 import java.util.Scanner;
 /**
  *
  * @author FATEC ZONA LESTE
  */
-public class CalculadorasComScanner {
+public class CalculadoraComScanner {
 
     public static void main(String[] args) {
 Scanner scanner = new Scanner(System.in);
@@ -42,26 +42,32 @@ switch (operacao) {
 case 1:
 resultado = num1 + num2;
 System.out.println("Resultado: " + resultado);
+break;
 
 case 2:
 resultado = num1 - num2;
 System.out.println("Resultado: " + resultado);
+break;
 
 case 3:
 resultado = num1 * num2;
 System.out.println("Resultado: " + resultado);
+break;
 
 case 4:
 if (num2 != 0) {
 resultado = num1 / num2;
 System.out.println("Resultado: " + resultado);
+break;
 }
 else {
 System.out.println("Erro: Divisão por zero!");
+break;
 }
 
 default:
 System.out.println("Operação inválida!");
+break;
 }
 }   
 
