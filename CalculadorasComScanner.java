@@ -15,7 +15,7 @@ Scanner scanner = new Scanner(System.in);
 boolean continuar = true;
         
 while (continuar) {
-System.out.println("\n1111Calculadora Básica");
+System.out.println("\nCalculadora Básica");
 System.out.println("1 - Soma");
 System.out.println("2 - Subtração");
 System.out.println("3 - Multiplicação");
