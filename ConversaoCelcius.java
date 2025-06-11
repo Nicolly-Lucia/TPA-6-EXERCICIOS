@@ -36,18 +36,22 @@ switch (opcao) {
 case 1:
 resultado = (temperatura * 9/5) + 32;
 System.out.printf("%.2f °C = %.2f °F\n", temperatura, resultado);
+break;
 
 case 2:
 resultado = temperatura + 273.15;
 System.out.printf("%.2f °C = %.2f K\n", temperatura, resultado);
-
+break;
+        
 case 3:
 resultado = (temperatura - 32) * 5/9;
 System.out.printf("%.2f °F = %.2f °C\n", temperatura, resultado);
-
+break;
+        
 case 4:
 resultado = temperatura - 273.15;
 System.out.printf("%.2f K = %.2f °C\n", temperatura, resultado);
+break;
 }
 } 
 else if (opcao != 0) {
