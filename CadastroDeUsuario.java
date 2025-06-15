@@ -12,6 +12,7 @@ public class CadastroDeUsuario {
 
     public static void main(String[] args) {
        Scanner scanner = new Scanner(System.in);
+       scanner.useLocale(java.util.Locale.US);
        System.out.println("------------------");
        
 //coleta de dados
